@@ -51,6 +51,7 @@ pipeline {
             }
         }
     }
+<<<<<<< HEAD
 
     post {
         always {
@@ -60,4 +61,6 @@ pipeline {
                  attachLog: true
         }
     }
+=======
+>>>>>>> 2227b04b517513604c6cf24dfcd51cf23ca140c9
 }
