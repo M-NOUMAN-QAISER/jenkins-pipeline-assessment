@@ -55,7 +55,7 @@ pipeline {
 
     post {
         always {
-            mail to: 'developer@example.com',
+            mail to: 'm.noumanqaiser.mughal@example.com',
                  subject: "Pipeline: ${env.JOB_NAME} Build #${env.BUILD_NUMBER}",
                  body: "Status: ${currentBuild.currentResult}. Check the logs for details.",
                  attachLog: true
